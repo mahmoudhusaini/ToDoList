@@ -1,0 +1,88 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+.form{
+    margin: 50px auto;
+    padding: 20px;
+    width: 60%;
+    height: 100px;
+    background-color: #eee;
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.submit-btn{
+    width: 120px;
+    padding: 20px;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffc107;
+}
+
+.input-txt{
+    width: 300px;
+    height: 40px;
+    color: #ffc107;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.tasks-container{
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 60%;
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.new-div{
+    margin: 10px;
+    padding: 10px;
+    width: 85%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.delete-btn{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: #ffc107;
+    border-radius: 4px;
+    border: none;
+}
+.finished{
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #ffc107;
+    border: none;
+    font-weight: bold;
+    transition: transform .3s;
+}
+.finished:hover{
+    transform: rotate(90deg);
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+
+
